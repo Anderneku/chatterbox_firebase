@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "400547297195",
+    "firebase_url": "https://chatterbox-2fc7b-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "chatterbox-2fc7b",
+    "storage_bucket": "chatterbox-2fc7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400547297195:android:cee60fe7fed6d7c5d944ee",
+        "android_client_info": {
+          "package_name": "com.example.chatterbox"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABqM0UdEpLjfYc34Fa0WX1dwDZehJtbfQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
