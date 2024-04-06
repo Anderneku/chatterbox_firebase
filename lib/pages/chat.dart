@@ -33,7 +33,8 @@ class _ChatState extends State<Chat> {
                   if (snapshot.connectionState == ConnectionState.waiting){
                     return Center(child: CircularProgressIndicator(),);
                   } else if (snapshot.hasError){
-                    return Center(child: Text("Error don show"),);
+                    //error
+                    return Center(child: Text("Error don show"),); 
                   } else{
                     List<Message> messages = snapshot.data!.docs.map((doc) {
                       return Message(body: doc["body"], timestamp: (doc["timestamp"] as Timestamp).toDate(), email: doc["email"], username: doc["username"]);
